@@ -1,0 +1,13 @@
+%YAML:1.0
+rmax: 100 # max radius of point to consider
+p_l: 32 # length parameter, how close points have to be in the GP model to correlate them
+p_sf: 0.5 # scaling on the whole covariance function
+p_sn: 0.01 # the expected noise for the model
+p_tmodel: 5 # the maxheight for consider to be ground
+p_tdata: 0.1 # the height threshold of height_test
+p_tg: 0.3 # the height threshold used to segment the whole point cloud after gp
+max_seed_range: 30
+max_seed_height: 0.3
+mount_angle: 0
+num_bins_a: 180 # number of devided(by angle) bins
+num_bins_l: 160 # number of devided(by range) bins
